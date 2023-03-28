@@ -1,0 +1,74 @@
+#mask {
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:99999991; 
+  display:none;
+}  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:99999992;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+  text-align: left;
+}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{ 	
+	color: red;
+}
+
+.section-title-popup {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+	line-height:1.5;
+    padding-left: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 15px;
+}
+
+@media screen and (max-width: 767px) {
+#boxes .window {  
+  width:410px !important; 
+}
+#boxes #dialog {
+  width:420px !important; 
+}
+}
